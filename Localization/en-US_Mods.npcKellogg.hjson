@@ -1,27 +1,21 @@
 Items: {
-	老克的音响: {
+	KMelee: {
 		DisplayName: 老克的音响
 		Tooltip: 这个音响不是武器，应该是一个可以放置的家具
 	}
 
-	吸血枪: {
+	KRanged: {
 		DisplayName: 吸血枪DisplayName
-		Tooltip: 打出去就能回血，多好!
+		Tooltip:
+			'''
+			打出去就能回血，多好!
+			30%不消耗弹药?
+			'''
 	}
 
-	吸血杖: {
+	KMagic: {
 		DisplayName: 吸血杖魔法武器
 		Tooltip: 只是加个魔力消耗
-	}
-
-	回血杖: {
-		DisplayName: 回血杖
-		Tooltip: ""
-	}
-
-	回血枪: {
-		DisplayName: 回血枪
-		Tooltip: ""
 	}
 }
 
@@ -30,12 +24,12 @@ NPCs: {
 		DisplayName: 老克
 
 		TownNPCMood: {
-			Content: 我很满足。
-			NoHome: 我讨厌没有家。
-			FarFromHome: 我离家太远了。
-			LoveSpace: 一大片旷野是吧
-			DislikeCrowded: 我不喜欢这么拥挤。
-			HateCrowded: 我讨厌这么拥挤。
+			Content: 凑合住吧。
+			NoHome: 没地方住怎么剪视频？
+			FarFromHome: 来不及回去录实况了。
+			LoveSpace: 还不会搭监狱嘛？
+			DislikeCrowded: 人有点多，我有点社恐。
+			HateCrowded: 这么多人，肯定有小黑子。
 			LoveBiome: 我非常喜欢{BiomeName}。
 			LikeBiome: 我喜欢{BiomeName}。
 			DislikeBiome: 我不喜欢{BiomeName}。

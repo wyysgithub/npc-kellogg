@@ -234,9 +234,9 @@ namespace npcKellogg.Content.NPCs
         public override void AddShops()
         {
             new NPCShop(Type)
-                .Add<回血枪>()
-                .Add<回血杖>()
-                .Add<老克的音响>()
+                .Add<KRanged>()
+                .Add<KMagic>()
+                .Add<KMelee>()
                 .Register();
         }
 
