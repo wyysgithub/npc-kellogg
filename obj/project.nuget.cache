@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n1lNKeM/nw0=",
+  "success": true,
+  "projectFilePath": "/Users/wangyangyang/Library/Application Support/Terraria/tModLoader/ModSources/npcKellogg/npcKellogg.csproj",
+  "expectedPackageFiles": [
+    "/Users/wangyangyang/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

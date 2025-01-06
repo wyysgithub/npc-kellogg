@@ -1,0 +1,3 @@
+displayName = npc老克
+author = 老克
+version = 0.1
