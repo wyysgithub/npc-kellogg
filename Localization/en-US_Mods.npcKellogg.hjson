@@ -1,11 +1,11 @@
 Items: {
 	KMelee: {
-		DisplayName: 老克的音响
-		Tooltip: 这个音响不是武器，应该是一个可以放置的家具
+		DisplayName: 巨大之刃
+		Tooltip: 跟用了钨魔石一样
 	}
 
 	KRanged: {
-		DisplayName: 吸血枪DisplayName
+		DisplayName: 吸血枪
 		Tooltip:
 			'''
 			打出去就能回血，多好!
@@ -14,8 +14,17 @@ Items: {
 	}
 
 	KMagic: {
-		DisplayName: 吸血杖魔法武器
+		DisplayName: 吸血杖
 		Tooltip: 只是加个魔力消耗
+	}
+
+	Goggles: {
+		DisplayName: 究极护目镜
+		Tooltip:
+			'''
+			召唤音界主宰：克总 
+			不会消耗
+			'''
 	}
 }
 
@@ -40,4 +49,6 @@ NPCs: {
 			Princess_LovesNPC: 我喜欢 {NPCName}。
 		}
 	}
+
+	KBoss.DisplayName: 音界主宰：克总
 }

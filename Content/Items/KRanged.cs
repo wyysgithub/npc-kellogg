@@ -100,7 +100,7 @@ Item.mana = 0;
 			Item.autoReuse = true;
 
 			// 最大堆叠数量
-			Item.maxStack = Item.CommonMaxStack;
+			// Item.maxStack = Item.CommonMaxStack;
 
 		}
 

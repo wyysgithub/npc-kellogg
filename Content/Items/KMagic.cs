@@ -44,7 +44,7 @@ namespace npcKellogg.Content.Items
 			Item.noMelee = true; // 这是一把枪所以贴图不能造成伤害
 
 			// 发射弹幕 ProjectileID.MagicDagger
-			Item.shoot = ProjectileID.MagicDagger;
+			Item.shoot = ProjectileID.ManaCloakStar;
 			// Item.shootSpeed = 6f;
 
 			// Item.useAmmo = AmmoID.Bullet;
@@ -55,9 +55,9 @@ namespace npcKellogg.Content.Items
 Item.noUseGraphic = false;
 // 吸血飞刀这个就是true，它使用时不显示贴图
 // 假如这是一个法杖类型，不写默认false，这里就用到物品Type了
-Item.staff[Type] = false; // enn，这是把剑
-// 一般来说，法杖类武器会使用Shoot的那个使用方式，但它的贴图不像枪一样是水平朝向而是向右上倾斜
-// 让它变成true就会导致使用时贴图再转45度，变成法杖尖端朝着射击方向
+			Item.staff[Type] = true; // enn，这是把剑
+			// 一般来说，法杖类武器会使用Shoot的那个使用方式，但它的贴图不像枪一样是水平朝向而是向右上倾斜
+			// 让它变成true就会导致使用时贴图再转45度，变成法杖尖端朝着射击方向
 			// 这是使用消耗的魔力值，不写就不消耗
 			Item.mana = 2;
 
@@ -100,7 +100,7 @@ Item.staff[Type] = false; // enn，这是把剑
 			Item.autoReuse = true;
 
 			// 最大堆叠数量
-			Item.maxStack = Item.CommonMaxStack;
+			// Item.maxStack = Item.CommonMaxStack;
 
 		}
 

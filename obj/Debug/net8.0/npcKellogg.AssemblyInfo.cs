@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("npcKellogg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e2a5bd2926c76e439d939ea176e611a87f1284")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a563d11740fdf3e66c75f42ec8e0e0357eb4d37")]
 [assembly: System.Reflection.AssemblyProductAttribute("npcKellogg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("npcKellogg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
